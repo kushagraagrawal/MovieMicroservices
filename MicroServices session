@@ -1,0 +1,47 @@
+Eric Evans: Domain Driven Design
+
+Bounded Context: A domain entity is only valid within it's bounded context
+
+Criteria:
+-Single Responsibility: One micosevice/purpose
+-Independent Evolvable Microservices(IE)
+-
+
+Don't Violate: Keep Things Together That Chnages for the same reason!
+
+Asynchromous choreography - message passing
+Synchronous orchestrator - heirarchy
+
+1db can't be shared by multiple micro-services
+
+Pure event based reactive systems
+
+Realize best communication modes b/w message and request response and hybrid
+
+Netflix zull API
+
+Cross cutting concern: A concern that is repeated (Request time from controller)
+
+
+
+API Gateway:
+
+Blue Green deployment (BGD)
+
+Problems: 
+
+Distributed configuration (Changing application properties everytime and compile everytime in every microservice)
+
+4 MICROSERVICES 
+
+1] API GATEWAY
+2] MICROSERVICES
+3] EUREKA API
+4] CONFIG SERVER
+
+
+
+
+
+
+
