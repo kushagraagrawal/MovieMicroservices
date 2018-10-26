@@ -1,0 +1,12 @@
+- multiple api gateway instance with ribbon/Nginx
+- Nginx load balancer
+- implement circuit breaker, write to JSON if mongo down - testing fault tolerance
+- blue green deployment -> work locally and develop a new version which should be up
+
+- JWT authentication -> another service for authentication, MySQL for user, pwd. JWT token use token to communicate with another services. https for communication
+	- generator approved,
+	- communication should happen over SSL
+	- bcrypt library 
+
+
+- Chaos Monkey - trip off services randomly to test fault tolerance.

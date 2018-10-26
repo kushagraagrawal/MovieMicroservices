@@ -38,21 +38,21 @@ public class MovieApplication implements ApplicationListener<ContextRefreshedEve
 
 	@Override
 	public void run(String... args) throws Exception {
-		Movie movie = new Movie("TitanicsaA", "1", 5, "dicaprio could have lived");
+		Movie movie = new Movie("1", 5,  "dicaprio could have lived","TitanicsaA");
 		movieRepository.save(movie);
 
 	}
 
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
-		Movie movie = new Movie("zysadasdasx", "4", 5, "asfasda lived");
+		Movie movie = new Movie("4", 5,"asfasda lived", "zysadasdasx" );
 		movieRepository.save(movie);
-		movie = new Movie("ssdasdasaf", "2", 5, "sdasdasdasdasdasd");
+		movie = new Movie("2", 5, "asdasd", "ssdasdasaf");
 		movieRepository.save(movie);
-		movie = new Movie("asadasdadf", "3", 5, "wresdasdasaq");
-		movieRepository.save(movie);
-		movie = new Movie("Titanasdaic", "5", 5, "dicaprio could have lived");
-		movieRepository.save(movie);
+//		movie = new Movie("asadasdadf", "3", 5, "wresdasdasaq");
+//		movieRepository.save(movie);
+//		movie = new Movie("Titanasdaic", "5", 5, "dicaprio could have lived");
+//		movieRepository.save(movie);
 	}
 
 	@Bean

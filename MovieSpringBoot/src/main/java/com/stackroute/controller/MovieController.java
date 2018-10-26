@@ -20,7 +20,10 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+
 @RestController
+@CrossOrigin(origins = "*")
 @Api(value = "MovieCruiser", description = "operations related to movieapp")
 @RequestMapping("/api/v1/movie")
 public class MovieController {
